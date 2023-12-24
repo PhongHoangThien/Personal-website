@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('images/guitar-background.png');background-repeat:no-repeat;
+background-attachment:fixed;background-size:cover;">
+    <h1>Implement</h1>
+    
+    <div class="container">
+        <div class="guitar-form">
+            <h2>Thêm sản phẩm</h2>
+            <input type="text" id="guitarID" placeholder="Mã Guitar">
+            <input type="text" id="guitarName" placeholder="Tên hãng">
+            <button id="addGuitarButton">Thêm</button>
+        </div>
+
+        <div class="guitar-list">
+        </div>
+
+        <div class="guitar-form">
+            <h2>Sửa thông tin</h2>
+            <input type="text" id="editGuitarID" placeholder="Mã Guitar">
+            <input type="text" id="newGuitarName" placeholder="Tên hãng mới">
+            <button id="editGuitarButton">Sửa</button>
+        </div>
+
+        <div class="guitar-form">
+            <h2>Xóa sản phẩm</h2>
+            <input type="text" id="deleteGuitarID" placeholder="Mã Guitar">
+            <button id="deleteGuitarButton">Xóa</button>
+        </div>
+
+        <div class="guitar-list">
+            <h2>Danh sách sản phẩm</h2>
+            <ul id="guitarUl"></ul>
+        </div>
+
+        <div class="guitar-form">
+            <h2>Tìm kiếm sản phẩm</h2>
+            <input type="text" id="searchGuitar" placeholder="Mã Guitar">
+            <button id="searchGuitarButton">Tìm kiếm</button>
+        </div>
+    </div>
+    
+    <script src="function_lab4.js"></script>
+</body>
+</html>
