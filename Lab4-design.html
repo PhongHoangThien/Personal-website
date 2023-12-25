@@ -8,6 +8,71 @@
 </head>
 <body style="background-image: url('images/guitar-background.png');background-repeat:no-repeat;
 background-attachment:fixed;background-size:cover;">
+    <nav class="navbar">
+        <a href="index.html">
+        <div class="nav-left"><img class="logo" src="images/logo.png" alt="Home">
+            <ul class="navlogo">
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        </a>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="profile-image online" onclick="UserSettingToggle()">
+                <img src="about-images/profile-pic.png" alt="">
+            </div>
+            
+        </div>
+        <div class="user-settings">
+            <div class="profile-darkButton">
+                <div class="user-profile">
+                    <img src="about-images/profile-pic.png" alt="">
+                    <div>
+                        <p> Phong Hoàng Thiện</p>
+                        <a href="">See your profile</a>
+                    </div>
+                </div>
+                <div id="dark-button" onclick="darkModeON()">
+                    <span></span>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png" alt="">
+                <div>
+                    <p> Give Feedback</p>
+                    <a href="#">Help us to improve</a>
+                </div>
+            </div>
+            <hr>
+            <div class="settings-links">
+                <img src="images/setting.png" alt="" class="settings-icon">
+                <a href="#">Settings & Privary <img src="images/arrow.png" alt=""></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="images/help.png" alt="" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" alt=""></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="images/Display.png" alt="" class="settings-icon">
+                <a href="#">Display & Accessibility <img src="images/arrow.png" alt=""></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="images/logout.png" alt="" class="settings-icon">
+                <a href="#">Logout <img src="images/arrow.png" alt=""></a>
+            </div>
+
+        </div>
+    </nav>
+
     <h1>Design</h1>
 
     <img src="images/Design.png" id="downloadImage1" width="500px" height="250px">
@@ -21,6 +86,6 @@ background-attachment:fixed;background-size:cover;">
     <a href="images/Design-HTML.png" download="Design-HTML.png">
         <button>Download Image</button>
     </a>
-
+    
 </body>
 </html>

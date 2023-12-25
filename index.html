@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>About</title>
+    <title>Personal Website</title>
     <script src="https://kit.fontawesome.com/ef7e2b893b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div onmouseenter="toggleChildTabs(this)" onmouseleave="toggleChildTabs(this)" class="menu" onclick="toggleChildTabs(this)">
+    <div onmouseenter="toggleChildTabs(this)" class="menu" onclick="toggleChildTabs(this)">
         <h1>Menu Labs</h1>
       
         <div class="menu-container">
             <div class="child-menu">
                 <p onclick="toggleTabs(event)">Lab 4</p>
-            
+                
                 <a href="Lab4-requirement.html">
                     <div class="tab">
                         Requirement
@@ -61,18 +61,50 @@
 
             <div class="child-menu">
                 <p onclick="toggleTabs(event)">Lab 6</p>
-            
-                <a href="lab6-ex1.html">
-                    <div class="tab">
-                        Ex1
-                    </div>
-                </a>
 
-                <a href="lab6-ex2.html">
-                    <div class="tab">
-                        Ex2
-                    </div>
-                </a>
+                <div class="tab">
+                    <p onclick="toggleTabs(event)">Ex1</p>
+
+                    <a href="lab6-ex1.html">
+                        <div class="child-tab">
+                            ex1.html
+                        </div>
+                    </a>
+
+                    <a href="lab6-ex1-design.html">
+                        <div class="child-tab">
+                            Design
+                        </div>
+                    </a>
+
+                    <a href="lab6-ex1-implementation.html">
+                        <div class="child-tab">
+                            Implementation
+                        </div>
+                    </a>
+                </div>
+
+                <div class="tab">
+                    <p onclick="toggleTabs(event)">Ex2</p>
+
+                    <a href="lab6-ex2.html">
+                        <div class="child-tab">
+                            ex2.html
+                        </div>
+                    </a>
+
+                    <a href="lab6-ex2-design.html">
+                        <div class="child-tab">
+                            Design
+                        </div>
+                    </a>
+
+                    <a href="lab6-ex2-implementation.html">
+                        <div class="child-tab">
+                            Implementation
+                        </div>
+                    </a>
+                </div>
             </div>
 
             <div class="child-menu">

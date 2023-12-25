@@ -788,18 +788,35 @@ a {
 
 .menu-container {
     display: table;
-    padding-left: 225px;
-    padding-right: 225px;
+    background-color: #1876f2;
+    margin-left: 225px;
+    margin-right: 225px;
+    border-style: groove;
 }
 
 .menu {
     cursor: pointer;
+    border-style: grove;
+    border-width: 5px;
+    border-color: #eee;
+}
+
+/* .menu a {
+    display: block;
+    height: auto;
+    font-size: 24px;
+} */
+
+.menu a :hover {
+    background-color: #afcef8;
 }
 
 .child-menu {
     display: none;
-    border-style: groove;
+    border-style: outset;
+    border-color: #eee;
     width: 1070px;
+    background-color: #4a90f3;
 }
 
 .child-menu :hover {
@@ -808,23 +825,48 @@ a {
 
 .child-menu p {
     font-size: 24px;
-    color: #1876f2;
+    color: #eee;
+    background-color: #4a90f3;
+}
+
+.menu-tab {
+    display: none;
+    font-size: 20;
+    border-style: groove;
+    padding-left: 15px;
 }
 
 .tab {
     display: none;
+    background-color: #eee;
+    color: #1876f2;
     font-size: 18px;
     border-style: groove;
-    border-width: 0.5px;
+    border-width: 0.2px;
     padding-left: 25px;
+    /* margin-left: 25px; */
+}
+
+.child-tab {
+    display: none;
+    color: #1876f2;
+    background-color: #eee;
+    font-size: 16px;
+    border-style: groove;
+    border-width: 0.2px;
 }
 
 .tab a {
     text-decoration: none;
+    border-style: none;
+    border-width: 0.2px;
 }
 
-.tab :hover {
-    background-color: white;
+.tab .child-menu {
+    display: none;
+    color: #1876f2;
+    background-color: #eee;
+    font-size: 32px;
 }
 
 .menu.active .child-menu {
@@ -835,3 +877,127 @@ a {
     display: block;
 }
 
+.tab.active .child-tab {
+    display: block;
+    border-style: groove;
+}
+
+/* lab6-1 */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+.section-z {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #efefef;
+}
+
+article {
+    flex: 1;
+    padding-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+article h2 {
+    color: #1876f2;
+    padding-left: 20px;
+}
+
+article p {
+    padding: 20px;
+    color: #000;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.image-section-z {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.image-section p {
+    color: #1876f2;
+    text-align: center;
+}
+
+.image-section-z p {
+    color: #1876f2;
+}
+
+.image-f {
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.image-z {
+    flex: 1;
+    max-width: 75%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+aside {
+    flex: 1;
+    background-color: #fff;
+    color: #1876f2;
+    padding: 20px;
+}
+
+aside li {
+    color: #000;
+}
+
+aside p {
+    color: #000;
+}
+
+.text-z {
+    display: block;
+    padding: 20px;
+}
+
+.text-z p {
+    padding: 10px;
+    color: #000;
+}
+
+.text-z h2 {
+    color: #1876f2;
+    padding-left: 20px;
+}
+
+.design-container {
+    display: flex;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+.design {
+    display: block;
+}
+
+.design img {
+    max-width: 750px;
+    max-height: 750px;
+}
