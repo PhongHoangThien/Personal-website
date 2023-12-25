@@ -22,7 +22,7 @@ function toggleChildTabs(event) {
     event.classList.toggle('active');
   }
 
-  function toggleTabs(event) {
+function toggleTabs(event) {
     const clickedElement = event.currentTarget;
     clickedElement.parentElement.classList.toggle('active');
 
@@ -30,5 +30,5 @@ function toggleChildTabs(event) {
     event.stopPropagation();
 
     childMenu.classList.toggle('active');
-  }
+}
   
