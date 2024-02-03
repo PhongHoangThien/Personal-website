@@ -1004,7 +1004,7 @@ aside p {
 
 .lab7-container {
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     background-image: url('images/guitar-background.png');
     background-repeat:no-repeat;
     background-size:cover;
@@ -1013,8 +1013,9 @@ aside p {
 }
 
 .lab7-container button {
+    color: #eee;
     padding: 10px 25px;
-    background: rgb(255, 196, 0);
+    background: #1876f2;
     border: 1px solid #fff;
     border-radius: 20px;
     outline: none;
@@ -1022,7 +1023,7 @@ aside p {
 }
 
 .lab7-container button:hover{
-    background: tan;
+    background: #1876f297;
 }
 
 .lab7-container input
@@ -1098,4 +1099,41 @@ aside p {
 }
 .music-notes img:nth-child(7){
     animation-delay: 4s;
+}
+
+.side-bar {
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#1876f28f, #5794e45a);
+    position: absolute;
+    right: 0;
+    top: 63px;
+}
+
+.side-menu {
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+
+.social-links {
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.useful-links {
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+}
+
+.social-links img, .useful-links img {
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
 }
