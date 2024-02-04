@@ -1,0 +1,137 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    text-align: left;
+    margin-top: 20px;
+    border: hidden;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.dot {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background-color: white;
+    margin-bottom: 3px;
+}
+
+.bigDot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 0.5px;
+}
+
+
+.image-container {
+    margin-right: 50px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 450px;
+    color: white;
+
+}
+
+.ruby-thuy {
+    background-color: rgb(30, 105, 220);
+    text-align: center;
+    padding: 1px;
+}
+
+.header2 {
+    padding-top: 60px;
+    padding-left: 278px;
+    width: 80%;
+
+    color: aliceblue;
+}
+
+.icon {
+    text-align: right;
+}
+
+.break-line {
+    display: flex;
+    justify-content: start;
+}
+
+.text {
+    padding: 20px;
+}
+
+.img {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.progress-bar {
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.progress {
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgb(39, 93, 174);
+}
+
+.laguage {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.dot2 {
+    display: inline-block;
+    padding-bottom: 6px;
+    width: 12px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    margin-right: 5px;
+}
+.flex {
+    display: flex;
+    justify-content: start;
+    padding-top: 40px;
+    margin-left: 600px;
+    
+}
+.main2 {
+    padding-top: 7px;
+}
+.education {
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+}
+
+.lorem {
+    padding-left: 30px;
+}
+.vertical_line {
+    width: 5px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #000000;
+    
+}
+.vertical_line2 {
+    width: 8px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #000000;
+    
+}
